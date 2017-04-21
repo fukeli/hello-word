@@ -15,5 +15,13 @@
     </mirrors>
 </settings>
 ```
+
+2、强制覆盖本地数据--git
+---
+```
+git fetch --all  
+git reset --hard origin/master 
+git pull
+```
 欢迎进入我的github，[提出建议](https://github.com/fukeli)<br>
 文件参考[zgj0315](https://github.com/zgj0315)
