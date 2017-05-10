@@ -41,5 +41,14 @@ Editor->File and Code Templates
 
 ```
 
+4、idea 修改快捷键
+----
+>找到keymap
+```
+Main menu -> Code -> Completion -> Basic   //修改代码提示
+Main menu -> Code -> Folding -> Comment with Line Comment  //注释行
+Editor Actions -> Delete Line  //删除行
+```
+
 欢迎进入我的github，[提出建议](https://github.com/fukeli)<br>
 文件参考[zgj0315](https://github.com/zgj0315)
