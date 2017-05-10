@@ -23,5 +23,23 @@ git fetch --all
 git reset --hard origin/master 
 git pull
 ```
+
+3、idea修改默认注释
+----
+>在设置里面找到：
+```
+Editor->File and Code Templates
+```
+>在选项卡里，找到Includes ，选中File Header 并修改
+```
+/**
+ * @ClassName: 
+ * @Description:
+ * @author: youname
+ * @data: ${YEAR}年${MONTH}月${DAY}日 ${TIME}
+ */
+
+```
+
 欢迎进入我的github，[提出建议](https://github.com/fukeli)<br>
 文件参考[zgj0315](https://github.com/zgj0315)
