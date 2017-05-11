@@ -10,7 +10,7 @@ Unable to find javadoc command:
 The environment variable JAVA_HOME is not correctly set.
 ```
 出现这个问题，是因为JAVA_HOME指向了JRE而不是JDK： 
-所以解决办法是在maven javadoc插件中手动配置：
+`所以解决办法是在maven javadoc插件中手动配置：`
 ```
 <javadocExecutable>${java.home}/../bin/javadoc</javadocExecutable>
 ```
