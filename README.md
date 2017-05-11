@@ -50,5 +50,11 @@ Main menu -> Code -> Folding -> Comment with Line Comment  //注释行
 Editor Actions -> Delete Line  //删除行
 ```
 
+Elastic 相关bug
+====
+## 1、java.lang.NoSuchFieldError: FAIL_ON_SYMBOL_HASH_OVERFLOW
+该错误是jdk版本冲突导致，检查服务器jdk是否和elastic环境相同
+
+
 欢迎进入我的github，[提出建议](https://github.com/fukeli)<br>
 文件参考[zgj0315](https://github.com/zgj0315)
