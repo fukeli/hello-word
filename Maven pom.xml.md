@@ -13,7 +13,7 @@ The environment variable JAVA_HOME is not correctly set.
 ```
 <javadocExecutable>${java.home}/../bin/javadoc</javadocExecutable>
 ```
-就像这样：
+讲上面的代码添加到 `<properties>` 即可，就像这样：
 ```
 <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
