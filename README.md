@@ -60,7 +60,7 @@ sudo rm -rf /Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk
 Elastic 相关bug
 ====
 ## 1、java.lang.NoSuchFieldError: FAIL_ON_SYMBOL_HASH_OVERFLOW
-该错误是jdk版本冲突导致，检查服务器jdk是否和elastic环境相同
+该错误是本地部分 jar包和服务器jar包 版本冲突导致，仔细查看错误信息，看是哪个jar包冲突
 
 
 欢迎进入我的github，[提出建议](https://github.com/fukeli)<br>
