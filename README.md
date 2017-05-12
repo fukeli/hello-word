@@ -50,6 +50,13 @@ Main menu -> Code -> Folding -> Comment with Line Comment  //注释行
 Editor Actions -> Delete Line  //删除行
 ```
 
+5、mac 卸载jdk
+---
+>删除 /Library/Java/JavaVirtualMachines/ 下的jdk版本，如：
+```
+sudo rm -rf /Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk
+```
+
 Elastic 相关bug
 ====
 ## 1、java.lang.NoSuchFieldError: FAIL_ON_SYMBOL_HASH_OVERFLOW
