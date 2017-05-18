@@ -21,3 +21,18 @@ The environment variable JAVA_HOME is not correctly set.
     <javadocExecutable>${java.home}/../bin/javadoc</javadocExecutable>
 </properties>
 ```
+
+
+
+## 2、打包时，不想执行test文件
+在 build 里 ，加入如下代码就好
+```
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>2.18.1</version>
+    <configuration>
+        <skipTests>true</skipTests>
+    </configuration>
+</plugin>
+```
