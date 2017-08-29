@@ -49,7 +49,7 @@ The environment variable JAVA_HOME is not correctly set.
             <target>1.7</target>
             <encoding>UTF-8</encoding>
             <compilerArguments>
-                <extdirs>project-demo\lib</extdirs>
+                <extdirs>${basedir}/lib</extdirs>
             </compilerArguments>
         </configuration>
     </plugin>
