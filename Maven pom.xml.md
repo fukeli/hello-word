@@ -36,3 +36,22 @@ The environment variable JAVA_HOME is not correctly set.
     </configuration>
 </plugin>
 ```
+
+
+## 3、将本地Jar包打包到maven项目中
+```
+<plugins>
+    <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.3.2</version>
+        <configuration>
+            <source>1.7</source>
+            <target>1.7</target>
+            <encoding>UTF-8</encoding>
+            <compilerArguments>
+                <extdirs>project-demo\lib</extdirs>
+            </compilerArguments>
+        </configuration>
+    </plugin>
+ </plugins> 
+```
