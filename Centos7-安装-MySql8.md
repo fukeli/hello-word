@@ -103,7 +103,7 @@ A temporary password is generated for root@localhost: aQujM!tBb2Re . 结尾的 a
 ----
 >启动mysql服务，查看库
 ```
-#进入mysql
+#进入mysql  ， 密码是初始化数据库时，随机生成的密码，在日志里，我的是 aQujM!tBb2Re
 mysql -uroot -p 
 #查看库
  show databases; 
