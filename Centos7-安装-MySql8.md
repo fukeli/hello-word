@@ -24,6 +24,10 @@ mariadb-libs-5.5.52-1.el7.x86_64
 [root@localhost local]# rpm -e mysql* 和  mariadb*   
 如果遇到问题  用  rpm -e --nodeps mysql*  和  mariadb*
 ```
+>安装依赖 （我用的电脑自带下面依赖，所以没有运行）
+```
+yum install gcc gcc-c++ openssl openssl-devel libaio libaio-devel  ncurses  ncurses-devel
+```
 
 3、MySql安装
 ----
