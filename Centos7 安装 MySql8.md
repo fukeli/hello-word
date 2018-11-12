@@ -1,9 +1,10 @@
 Centos7 安装 MySql8 二进制安装包
 ===
 
-1、自行下载二进制安装包
+1、自行下载二进制安装包 ， 我下载的是 [mysql-8.0.13-linux-glibc2.12-x86_64.tar.xz](https://dev.mysql.com/downloads/mysql/)
 ---
 ```
+
 ```
 
 2、先卸载当前系统中已安装的mariadb
