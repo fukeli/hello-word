@@ -1,4 +1,4 @@
-Centos7 安装 MySql8 
+Centos7 安装 MySql8  注意，该方法不适用与ubuntu系统
 ===
 
 1、自行下载安装包 
