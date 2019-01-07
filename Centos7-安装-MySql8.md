@@ -31,7 +31,7 @@ yum install gcc gcc-c++ openssl openssl-devel libaio libaio-devel  ncurses  ncur
 
 3、MySql安装
 ----
->将 mysql-8.0.13-linux-glibc2.12-x86_64.tar.xz 上传到服务器 /usr/local/ 目录下 ，然后：
+>将 mysql-8.0.13-linux-glibc2.12-x86_64.tar.xz 上传到服务器 /usr/local/ 目录下 (如果放在别的目录，要建立一个软连接，把数据库目录连接到当/usr/local 目录下, ln -s /home/mysql8/mysql-8.0.13 mysql8 )，然后：
 ```
 #进入 /usr/local 目录
 cd /usr/local/ 
@@ -98,7 +98,7 @@ A temporary password is generated for root@localhost: aQujM!tBb2Re . 结尾的 a
 ```
 ```
 #初始化mysql 
-/etc/init.d/mysqld --initialize --user=mysql8  --basedir=/usr/local/mysql8  --datadir=/usr/local/mysql8/data
+/usr/local/mysql8/bin/mysqld --initialize --user=mysql8  --basedir=/usr/local/mysql8  --datadir=/usr/local/mysql8/data
 #启动和关闭
 /etc/init.d/mysqld start
 /etc/init.d/mysqld stop
