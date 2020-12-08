@@ -49,7 +49,7 @@ mkdir log
 #创建mysql组和用户
 groupadd mysql8
 useradd -r -g mysql8 -s /bin/false mysql8
-chown  -R  mysql8:mysql8 /usr/local/mysql8
+chown  -R  mysql8:mysql8 /usr/local/mysql8/
 ```
 >#在 /etc 下，创建 my.cnf文件 , 文件内容如下：
 ```
